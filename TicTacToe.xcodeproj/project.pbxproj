@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2CA5D1772855C66600BB0859 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5D1762855C66600BB0859 /* AppDelegate.swift */; };
-		2CA5D1792855C66600BB0859 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5D1782855C66600BB0859 /* SceneDelegate.swift */; };
 		2CA5D17B2855C66600BB0859 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5D17A2855C66600BB0859 /* ViewController.swift */; };
-		2CA5D17E2855C66600BB0859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA5D17C2855C66600BB0859 /* Main.storyboard */; };
 		2CA5D1802855C67000BB0859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA5D17F2855C67000BB0859 /* Assets.xcassets */; };
 		2CA5D1832855C67000BB0859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA5D1812855C67000BB0859 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		2CA5D1732855C66600BB0859 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA5D1762855C66600BB0859 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2CA5D1782855C66600BB0859 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2CA5D17A2855C66600BB0859 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2CA5D17D2855C66600BB0859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2CA5D17F2855C67000BB0859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CA5D1822855C67000BB0859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CA5D1842855C67000BB0859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				2CA5D1762855C66600BB0859 /* AppDelegate.swift */,
-				2CA5D1782855C66600BB0859 /* SceneDelegate.swift */,
 				2CA5D17A2855C66600BB0859 /* ViewController.swift */,
-				2CA5D17C2855C66600BB0859 /* Main.storyboard */,
 				2CA5D17F2855C67000BB0859 /* Assets.xcassets */,
 				2CA5D1812855C67000BB0859 /* LaunchScreen.storyboard */,
 				2CA5D1842855C67000BB0859 /* Info.plist */,
@@ -127,7 +121,6 @@
 			files = (
 				2CA5D1832855C67000BB0859 /* LaunchScreen.storyboard in Resources */,
 				2CA5D1802855C67000BB0859 /* Assets.xcassets in Resources */,
-				2CA5D17E2855C66600BB0859 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,21 +133,12 @@
 			files = (
 				2CA5D17B2855C66600BB0859 /* ViewController.swift in Sources */,
 				2CA5D1772855C66600BB0859 /* AppDelegate.swift in Sources */,
-				2CA5D1792855C66600BB0859 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2CA5D17C2855C66600BB0859 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2CA5D17D2855C66600BB0859 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2CA5D1812855C67000BB0859 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +276,6 @@
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +303,6 @@
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
